@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu de naviation */
+.fixe {
+    position: fixed;
+}
+.navBar {
+    width: 100%;
+    height: 11%; /* utiliser pading */
+    background-color: mediumseagreen;
+    border-bottom: darkgreen solid 1px;
+    z-index: 1;
+}
+
+  /* début de la liste */
+    ul {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    a, a:hover {
+        color: black;
+        text-decoration: none;
+    }
+    li {
+        display: inline;
+        float: left;
+        list-style: none;
+    }
+
+    li a {
+        display: block;
+        padding: 8px;
+    }
+
+    /* DROPDOWN BUTTON */
+    .dropbtn {
+        background-color: grey;
+        margin-left: 2em;
+        padding: 16px;
+        font-size: 18px;
+        border: none;
+    }
+
+    .dropbtn a {
+        color: limegreen;
+        border-bottom: solid 1px powderblue;
+    }
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        margin-left: 2em;
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: darkgrey;}
+
+
+        /* Logo de  l'entreprise*/
+        .logoGeek {
+            width: 100px;
+            height:80px;
+            margin-left: 15px;
+        }
+
+        .nav-item-img {
+            margin-right: 25px;
+            margin-top: 8px;
+        }
+
+        .float-center {
+            float: left;
+            font-size: 30pt;
+            position: relative;
+            margin-top: 15px;
+            line-height: 30px;
+            left: 37%; /* or right 50% */
+            text-align: center;
+        }
+
+        .float-left {
+            float: left;
+        }
+        .float-right {
+            float: right;
+        }
+    .sousNavbar {
+        width: 100%;
+        margin: 0 auto;
+        background-color: grey;
+        border-bottom: darkgreen solid 1px;
+    }
+
+@media all and (min-width: 1024px) and (max-width: 1280px) { }
+@media all and (min-width: 768px) and (max-width: 1024px) { }
+@media all and (max-width: 768px) {
+    .InvisibleforMobile {
+        opacity: 0;
+    }
+
+    .logoforMobile {
+        margin-right: 5%;
+    }
+}
+
+
