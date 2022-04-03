@@ -1,0 +1,25 @@
+div {
+	position: absolute;
+}
+
+.txt {
+	float: right; 
+	
+	padding-left: 42%;	
+	text-align: center;	
+}
+
+p {
+	font-family: arial;
+	font-size: 30px;
+	text-align: center;
+}
+
+.taille {
+	width: 450px;
+	height: 350px;	
+	margin-top: 220px;
+	margin-left: 100px;
+	position: absolute;
+}
+

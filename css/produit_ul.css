@@ -1,0 +1,58 @@
+.content {
+    padding-top: 300px;
+    left: 610px;
+    ;
+    display: block;
+    position: absolute;
+}
+
+.taile_img {
+    width: 600px;
+    height: 500px;
+    border-style: double;
+    border-width: 7px;
+    border-color: green;
+    background-color: indianred;
+}
+
+ul#list {
+    list-style-type: none;
+    font-family: Tahoma, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    width: 623px;
+    display: block;
+    position: absolute;
+}
+
+.marge {
+    margin-top: 300px;
+    margin-left: 500px;
+    position: absolute;
+    background-color: blueviolet;
+}
+
+li#content {
+    padding-bottom: 250px;
+}
+
+.pub {
+    background-color: black;
+    top: 90px;
+    right: 0px;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+}
+
+.midle {
+    padding-left: 265px;
+}
+
+.midle_2 {
+    padding-left: 210px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}

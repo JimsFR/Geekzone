@@ -1,0 +1,62 @@
+.content {
+	padding-top: 300px;
+    left: 410px;;
+    display: block;
+	position: absolute;
+}
+
+.taile_img {
+	width: 300px;
+	height: 300px;
+	border-style: double;
+	border-width: 7px;
+	border-color: green;
+  background-color: indianred;
+}
+ul#list {
+    list-style-type: none;
+    width: 350px;
+    display: block;
+    position: absolute;
+}
+ul#list2 {
+    list-style-type: none;
+    width: 350px;
+    display: block;
+    position: absolute;
+}
+ul#list3 {
+    list-style-type: none;
+    width: 350px;
+    display: block;
+    position: absolute;
+}
+
+.marge {
+      margin-top: 300px;
+      margin-left: 50px;
+      position: absolute;
+}
+.marge2 {
+    margin-top: 300px;
+    margin-left: 450px;
+    position: absolute;
+}
+.marge3 {
+    margin-top: 300px;
+    margin-left: 850px;
+    position: absolute;
+}
+
+li#content {
+      padding-bottom: 200px;
+}
+.stonks {
+    background-color: black;
+    right: 0px;
+    width: 200px;
+    height: 100%;
+    margin-top: 100px;
+    position: fixed;
+  
+  }

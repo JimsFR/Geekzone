@@ -6,87 +6,90 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/navBar.css">
-    <link rel="stylesheet" href="css/panier/panier.css">
-    <link href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'></head>
+    <link rel="stylesheet" href="css/panier.css">
+</head>
 <body>
-<!--
 <section>
     <div class="fixe navBar">
-
         <ul>
-            <li class="float-left"><a href="index.html"> <img class="logoGeek" src="images/geekzone.png"></a></li>
+            <li class="float-left"><a href="accueil.html"> <img class="logoGeek" src="images/geekzone.png"></a></li>
             <li class="float-center float-left InvisibleforMobile">Geekzone<br><span style="font-size: 16px;">A PLACE TO WIN</span></li>
-            <li class="nav-item-img float-right logoforMobile"><a href="connexion.html"><img src="images/client.png"> </a></li>
+            <li class="nav-item-img float-right logoforMobile"><a href="login.html"><img src="images/client.png"> </a></li>
             <li class="nav-item-img float-right logoforMobile"><a href="panier.html"><img style="width: 55px" src="images/panier.png"></a></li>
         </ul>
 
         <div class="fixe sousNavbar">
-            <button class="dropbtn "><a href="nosBoutiques.html">Nos Boutiques</a></button>
+            <button class="dropbtn "><a href="Boutique.html">Nos Boutiques</a></button>
             <div class="dropdown">
                 <button class="dropbtn"><a href="categorie.html">Catégorie</a></button>
                 <div class="dropdown-content">
-                    <a href="#">Cuisine</a>
-                    <a href="#">Gadget</a>
-                    <a href="#">Mode</a>
-                    <a href="#">Portable</a>
-                    <a href="#">Usb</a>
+                    <a href="Produit_cuisine.html">Cuisine</a>
+                    <a href="Produit_gadget.html">Gadget</a>
+                    <a href="Produit_mode.html">Mode</a>
+                    <a href="Produit_portable.html">Portable</a>
+                    <a href="Produit_usb.html">Usb</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
--->
 
 <div class="wrapper">
-    <div class="grid-gauche panier-gauche">
-        <h2>Mon Panier</h2>
-    </div>
-    <div class="grid-droite panier-droite">
-        <h2>Montant total</h2>
-    </div>
     <div class="wrapper gauche">
+        <div class="panier-gauche"><h2>Mon Panier</h2></div>
+
         <!-- 1er produit -->
+        <br>
         <div class="grid-gauche">
             <img class="produit-img"src="images/tshirt-jv.jpg">
         </div>
         <div class="grid-gauche-titre-produit">
             <h3 class="titre-produit">T-Shirt Jeux-vidéos</h3>
+            <h4 class="grid-droite-prix">56,97 €</h4>
             <br>
             <button id="basic-example-decrease" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">-</button>
             <input class="quantity" min="1" name="quantity" value="1" type="number">
             <button id="basic-example-add" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
             <br>
             <ul class="horizontal-li">
-                <li>Déplacer dans favoris</li>
+                <li>
+                    <a href="#">Déplacer dans favoris</a>
+                </li>
             </ul>
 
             <ul class="horizontal-li">
-                <li>Supprimer l'article</li>
+                <li>
+                    <a href="#">Supprimer l'article</a>
+                </li>
             </ul>
 
-            <h4 class="grid-droite-prix">56,97 €</h4>
         </div>
-
         <!-- 2ème produit -->
         <div class="grid-gauche">
             <img class="produit-img"src="images/tshirt-jv.jpg">
         </div>
         <div class="grid-gauche-titre-produit">
             <h3 class="titre-produit">T-Shirt Jeux-vidéos</h3>
+            <h4 class="grid-droite-prix">56,97 €</h4>
             <br>
             <button id="basic-example-decrease" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">-</button>
-            <input class="quantity" min="1" name="quantity" value="1" type="number">
+            <label>
+                <input class="quantity" min="1" name="quantity" value="1" type="number">
+            </label>
             <button id="basic-example-add" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
+
             <br>
             <ul class="horizontal-li">
-                <li>Déplacer dans favoris</li>
+                <li>
+                    <a href="#">Déplacer dans favoris</a>
+                </li>
             </ul>
 
             <ul class="horizontal-li">
-                <li>Supprimer l'article</li>
+                <li>
+                    <a href="#">Supprimer l'article</a>
+                </li>
             </ul>
-
-            <h4 class="grid-droite-prix">56,97 €</h4>
         </div>
 
         <!-- 3ème produit -->
@@ -95,34 +98,74 @@
         </div>
         <div class="grid-gauche-titre-produit">
             <h3 class="titre-produit">T-Shirt Jeux-vidéos</h3>
+            <h4 class="grid-droite-prix">56,97 €</h4>
+            <br>
+            <button id="basic-example-decrease" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">-</button>
+            <label>
+                <input class="quantity" min="1" name="quantity" value="1" type="number">
+            </label>
+            <button id="basic-example-add" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
+            <br>
+            <ul class="horizontal-li">
+                <li>
+                    <a href="#">Déplacer dans favoris</a>
+                </li>
+            </ul>
+
+            <ul class="horizontal-li">
+                <li>
+                    <a href="#">Supprimer l'article</a>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 4ème produit -->
+        <div class="grid-gauche">
+            <img class="produit-img"src="images/tshirt-jv.jpg">
+        </div>
+        <div class="grid-gauche-titre-produit">
+            <h3 class="titre-produit">T-Shirt Jeux-vidéos</h3>
+            <h4 class="grid-droite-prix">56,97 €</h4>
             <br>
             <button id="basic-example-decrease" onclick="this.parentNode.querySelector('input[type=number]').stepDown()" class="minus">-</button>
             <input class="quantity" min="1" name="quantity" value="1" type="number">
             <button id="basic-example-add" onclick="this.parentNode.querySelector('input[type=number]').stepUp()" class="plus">+</button>
             <br>
             <ul class="horizontal-li">
-                <li>Déplacer dans favoris</li>
+                <li>
+                    <a href="#">Déplacer dans favoris</a>
+                </li>
             </ul>
 
             <ul class="horizontal-li">
-                <li>Supprimer l'article</li>
+                <li>
+                    <a href="#">Supprimer l'article</a>
+                </li>
             </ul>
-            <h4 class="grid-droite-prix">56,97 €</h4>
         </div>
+
+
+
+
         <!-- Ici pour ajouter de nouveaux produits -->
     </div>
     <div class="wrapper droite">
-        <p>Sous-total : <span>56,97</span>€</p>
-        <p>Frais d'expédition<span>2,50</span>€</p>
+        <div class="montant-droite">
+            <h2>Montant total</h2>
+        </div>
 
-        <p class="total-panier">Total<span>2,50</span>€</p>
+        <br>
+
+        <div class="cadrant-total-panier">
+            <p>Sous-total : <span>56,97</span> €</p>
+            <p>Frais d'expédition : <span>2,50</span> €</p>
+
+            <p class="total-panier">Total : <span>2,50</span> €</p>
+        </div>
+        <br>
+        <!-- Partie bouton commander-->
+        <input class="styled" type="button" value="Commander">
     </div>
-
 </div>
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js'></script>
 </body>
 </html>

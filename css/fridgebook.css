@@ -1,0 +1,43 @@
+ul#list {
+    list-style-type: none;
+    font-family: Tahoma, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif;
+    display: block;
+    
+  }
+
+  .taile_img {
+	width: 450px;
+	height: 350px;
+    background-color: indianred;
+    border-style: double;
+	border-width: 7px;
+	border-color: green;
+}
+li#content{
+    padding-right: 150px;
+    margin-bottom: 75px;
+}
+ul#place {
+    margin-left: 300px;
+    margin-top: 200px;
+    position: absolute;
+}
+.pub {
+	background-color: black;
+	top: 90px;
+	right: 0px;
+	width :200px;
+	height: 100%;
+	position:fixed;
+  }
+  .txt1{
+    padding-left: 355px;
+  }
+  .txt2 {
+    margin-left: 75px;
+  }
+  .panier{
+      padding-top: 100px ;
+      margin-left: 500px;
+      border; solid
+  }
